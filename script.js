@@ -196,12 +196,10 @@ const PROJECTS = [
 
 /* ── Şəxsi Məlumatlar ── */
 const PERSONAL_INFO = [
-    { label: 'Ad Soyad', value: 'Nəzrin Osmanova' },
     { label: 'Ünvan', value: 'Azərbaycan, Bakı, Xətai' },
     { label: 'Email', value: 'nazrinosmanovaa@gmail.com', href: 'mailto:nazrinosmanovaa@gmail.com' },
     { label: 'LinkedIn', value: 'linkedin.com/in/nazrin-osmanova', href: 'https://www.linkedin.com/in/nazrin-osmanova/' },
-    { label: 'İxtisas', value: 'Biznes Analitika' },
-    { label: 'GitHub', value: 'NazrinOsmanova', href: 'https://github.com/NazrinOsmanova' },
+    { label: 'GitHub', value: 'github.com/NazrinOsmanova', href: 'https://github.com/NazrinOsmanova' },
 ];
 
 /* ── Dil Bilikləri ── */
@@ -320,14 +318,6 @@ const SECTIONS = {
     <h2 class="section-heading">Şəxsi Məlumatlar</h2>
     <div class="info-grid">
       ${PERSONAL_INFO.map(renderInfoItem).join('')}
-    </div>
-    <div class="card rose referans-card" style="margin-top:20px;">
-      <div class="card-accent"></div>
-      <div class="card-body">
-        <p class="referans-name">${REFERENCE.name}</p>
-        <p class="referans-role">${REFERENCE.role}</p>
-        <p class="referans-contact">${REFERENCE.contact}</p>
-      </div>
     </div>`,
 
     dil: () => `
