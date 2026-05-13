@@ -2,18 +2,18 @@
 <html lang="az">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nəzrin Osmanova – Portfolio</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- ── HEADER ── -->
     <div class="header-blob">
         <div class="header-inner">
             <div class="avatar-wrap">
@@ -22,9 +22,11 @@
             <div class="header-text">
                 <p class="role">Biznes Analitik</p>
                 <h1>Nəzrin Osmanova</h1>
-                <p class="bio">Data və biznes analitikası istiqamətində inkişaf edən gənc mütəxəssisəm. Excel, Power BI,
-                    SQL və BPMN üzrə praktiki biliklərə sahibəm. Məqsədim məlumat əsaslı qərarvermə və analitika
-                    sahəsində karyera qurmaqdır.</p>
+                <p class="bio">
+                    Data və biznes analitikası istiqamətində inkişaf edən gənc mütəxəssisəm.
+                    Excel, Power BI, SQL və BPMN üzrə praktiki biliklərə sahibəm. Məqsədim
+                    məlumat əsaslı qərarvermə və analitika sahəsində karyera qurmaqdır.
+                </p>
                 <div class="contact-chips">
                     <a class="chip" href="mailto:nazrinosmanovaa@gmail.com">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -53,361 +55,17 @@
         </div>
     </div>
 
-    <!-- NAV -->
+    <!-- ── NAV ── -->
     <div class="nav-wrap">
         <nav>
-            <ul class="nav-tabs">
-                <li><button class="active" onclick="showSection('tehsil', this)">Təhsil</button></li>
-                <li><button onclick="showSection('tecrube', this)">Təcrübə</button></li>
-                <li><button onclick="showSection('bacariqlar', this)">Texniki Bacarıqlar</button></li>
-                <li><button onclick="showSection('sertifikatlar', this)">Sertifikatlar</button></li>
-                <li><button onclick="showSection('layiheler', this)">Şəxsi Layihələr</button></li>
-                <li><button onclick="showSection('melumatlar', this)">Şəxsi Məlumatlar</button></li>
-                <li><button onclick="showSection('dil', this)">Dil Bilikləri</button></li>
-            </ul>
+            <ul class="nav-tabs" id="navTabs"></ul>
         </nav>
     </div>
 
-    <!-- CONTENT -->
-    <div class="content-area">
-
-        <!-- TƏHSİL -->
-        <div class="section active" id="tehsil">
-            <h2 class="section-heading"><span></span>Təhsil</h2>
-
-            <div class="card lavender">
-                <div class="card-accent"></div>
-                <div class="card-header">
-                    <div class="card-title">Azərbaycan Texniki Universiteti</div>
-                    <div class="card-date">Sentyabr 2025 – Davam edir</div>
-                </div>
-                <div class="card-subtitle">Magistratura – Kompüter Elmləri (İqtisadiyyatda Optimal İdarəetmənin Riyazi
-                    Üsulları)</div>
-                <div class="card-body">Kompüter elmləri və riyazi modelləşdirmə istiqamətlərini özündə birləşdirən
-                    magistratura proqramı.</div>
-            </div>
-
-            <div class="card rose">
-                <div class="card-accent"></div>
-                <div class="card-header">
-                    <div class="card-title">Azərbaycan Dövlət Neft və Sənaye Universiteti</div>
-                    <div class="card-date">Sentyabr 2021 – İyun 2025</div>
-                </div>
-                <div class="card-subtitle">Bakalavr – İnformasiya Texnologiyaları</div>
-                <div class="card-body">İnformasiya texnologiyaları üzrə bakalavr dərəcəsi. Proqramlaşdırma əsasları,
-                    alqoritmlər və sistemlər üzrə təhsil alınmışdır.</div>
-            </div>
-        </div>
-
-        <!-- TƏCRÜBƏSİ -->
-        <div class="section" id="tecrube">
-            <h2 class="section-heading"><span></span>Təcrübə</h2>
-
-            <div class="card sky">
-                <div class="card-accent"></div>
-                <div class="card-header">
-                    <div class="card-title">Buta Group – Təcrübəçi</div>
-                    <div class="card-date">Oktyabr 2024 – Yanvar 2025</div>
-                </div>
-                <div class="card-subtitle">Biznes analitika / Hesabat</div>
-                <div class="card-body">
-                    <ul>
-                        <li>Excel vasitəsilə əməliyyat və biznes məlumatlarının təhlili, vizuallaşdırılması və
-                            hesabatların hazırlanması;</li>
-                        <li>Müxtəlif biznes istiqamətləri üzrə SWOT analizlərinin hazırlanması;</li>
-                        <li>ERP və CRM sistemlərindən istifadə edərək məlumatların idarə olunması;</li>
-                        <li>Proseslərin prosedur və daxili qaydalara uyğun sənədləşdirilməsi.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card mint">
-                <div class="card-accent"></div>
-                <div class="card-header">
-                    <div class="card-title">Azersun Holdinq – Təcrübəçi</div>
-                    <div class="card-date">İyul 2024 – Sentyabr 2024</div>
-                </div>
-                <div class="card-subtitle">Proseslərin İnkişafı Departamenti</div>
-                <div class="card-body">
-                    <ul>
-                        <li>BPMN vasitəsilə biznes proseslərinin modelləşdirilməsi və proses axınlarının analizi;</li>
-                        <li>Müxtəlif şöbələr üzrə workflow-ların hazırlanması və proses optimallaşdırılması;</li>
-                        <li>Risk matrisi hazırlanması və proses risklərinin təhlili;</li>
-                        <li>Şirkətdaxili prosedur və sənədlərin standartlara uyğun hazırlanması.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card peach">
-                <div class="card-accent"></div>
-                <div class="card-header">
-                    <div class="card-title">Könüllü Təcrübələr</div>
-                    <div class="card-date"></div>
-                </div>
-                <div class="card-subtitle">Sofar Baku · Noyabr 2025 – Davam edir &nbsp;|&nbsp; MGİD · May – Sentyabr
-                    2023</div>
-                <div class="card-body">
-                    <ul>
-                        <li><strong>Sofar Baku:</strong> Konsertlərdə qonaqların qarşılanması, yönləndirilməsi; operativ
-                            məsələlərin həlli; komanda koordinasiyası.</li>
-                        <li><strong>"Müasir Gənclərin İnkişafına Dəstək" Koordinator:</strong> Layihə təkliflərinin
-                            hazırlanması, təhsil layihə ideyalarının formalaşdırılması, tədbir planlarının yaradılması.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- TEXNİKİ BACARIQLAR -->
-        <div class="section" id="bacariqlar">
-            <h2 class="section-heading"><span></span>Texniki Bacarıqlar</h2>
-
-            <div class="skills-grid">
-                <div class="skill-box rose">
-                    <h3>Analitik Alətlər</h3>
-                    <span class="skill-tag">SQL (MsSQL)</span>
-                    <span class="skill-tag">Power BI</span>
-                    <span class="skill-tag">Power Query</span>
-                    <span class="skill-tag">Data Vizualizasiya</span>
-                    <span class="skill-tag">Data Analizi</span>
-                    <span class="skill-tag">Data Təmizlənməsi</span>
-                </div>
-
-                <div class="skill-box lavender">
-                    <h3>Biznes Prosesləri</h3>
-                    <span class="skill-tag">BPMN</span>
-                    <span class="skill-tag">BRD hazırlanması</span>
-                    <span class="skill-tag">Lucidchart</span>
-                    <span class="skill-tag">Proses Optimallaşdırma</span>
-                    <span class="skill-tag">Sənədləşdirmə</span>
-                </div>
-
-                <div class="skill-box mint">
-                    <h3>Ofis Proqramları</h3>
-                    <span class="skill-tag">Excel</span>
-                    <span class="skill-tag">Word</span>
-                    <span class="skill-tag">PowerPoint</span>
-                    <span class="skill-tag">Outlook</span>
-                </div>
-
-                <div class="skill-box sky">
-                    <h3>Layihə İdarəetməsi</h3>
-                    <span class="skill-tag">Trello</span>
-                    <span class="skill-tag">ClickUp</span>
-                    <span class="skill-tag">Odoo</span>
-                    <span class="skill-tag">ERP / CRM</span>
-                </div>
-
-                <div class="skill-box peach">
-                    <h3>Texniki Baza</h3>
-                    <span class="skill-tag">GitHub</span>
-                    <span class="skill-tag">Alqoritm Düşüncəsi</span>
-                    <span class="skill-tag">Proqramlaşdırma Əsasları</span>
-                </div>
-            </div>
-
-            <h3
-                style="font-family:'DM Serif Display',serif; font-size:1rem; font-weight:400; color:var(--text); margin:28px 0 4px;">
-                Yumşaq Bacarıqlar</h3>
-            <div class="soft-grid">
-                <span class="soft-pill">Analitik düşüncə</span>
-                <span class="soft-pill">Komanda ilə işləmə</span>
-                <span class="soft-pill">Tənqidi düşüncə</span>
-                <span class="soft-pill">Emosional zəka</span>
-                <span class="soft-pill">Effektiv ünsiyyət</span>
-                <span class="soft-pill">Vaxtın idarəsi</span>
-                <span class="soft-pill">Detallara diqqət</span>
-                <span class="soft-pill">Problemlərin həlli</span>
-            </div>
-        </div>
-
-        <!-- SERTİFİKATLAR -->
-        <div class="section" id="sertifikatlar">
-            <h2 class="section-heading"><span></span>Sertifikatlar</h2>
-
-            <div class="card lavender" style="padding-bottom: 8px;">
-                <div class="card-accent"></div>
-
-                <div class="cert-row">
-                    <div>
-                        <div class="cert-name">Biznes İntellekti Əsasları</div>
-                        <div class="cert-org">Simplilearn</div>
-                        <a class="cert-link" href="https://simpli-web.app.link/e/7KqJEjSWp1b"
-                            target="_blank">Sertifikata bax →</a>
-                    </div>
-                    <div class="cert-date">11 Mart 2026</div>
-                </div>
-
-                <div class="cert-row">
-                    <div>
-                        <div class="cert-name">Proses Mədənçiliyi: Məlumat Elminin Tətbiqi</div>
-                        <div class="cert-org">Eindhoven Texnologiya Universiteti</div>
-                        <a class="cert-link" href="https://www.coursera.org/account/accomplishments/verify/Z13VGLSC044Z"
-                            target="_blank">Sertifikata bax →</a>
-                    </div>
-                    <div class="cert-date">6 Dekabr 2025</div>
-                </div>
-
-                <div class="cert-row">
-                    <div>
-                        <div class="cert-name">Biznes Analitikanın Əsasları</div>
-                        <div class="cert-org">IBM</div>
-                        <a class="cert-link" href="https://www.coursera.org/account/accomplishments/verify/W8F5R5WJL71P"
-                            target="_blank">Sertifikata bax →</a>
-                    </div>
-                    <div class="cert-date">15 Sentyabr 2025</div>
-                </div>
-
-                <div class="cert-row">
-                    <div>
-                        <div class="cert-name">Excelin Əsasları</div>
-                        <div class="cert-org">IBM</div>
-                        <a class="cert-link" href="https://www.credly.com/badges/3d032db1-9a58-4df6-b9c0-5498df12c449"
-                            target="_blank">Sertifikata bax →</a>
-                    </div>
-                    <div class="cert-date">7 Sentyabr 2025</div>
-                </div>
-
-                <div class="cert-row">
-                    <div>
-                        <div class="cert-name">Layihə Menecerləri üçün Süni İntellekt</div>
-                        <div class="cert-org">PMI</div>
-                        <a class="cert-link" href="https://www.credly.com/badges/7f2c28b7-30af-474e-bc32-8d3e82acbfa3"
-                            target="_blank">Sertifikata bax →</a>
-                    </div>
-                    <div class="cert-date">31 Mart 2025</div>
-                </div>
-
-                <div class="cert-row">
-                    <div>
-                        <div class="cert-name">Exceldə Pivot Cədvəllər</div>
-                        <div class="cert-org">Bilgeiş</div>
-                    </div>
-                    <div class="cert-date">8 Noyabr 2024</div>
-                </div>
-
-                <div class="cert-row">
-                    <div>
-                        <div class="cert-name">APTIS (B1)</div>
-                        <div class="cert-org">İngilis dili sertifikatı</div>
-                    </div>
-                    <div class="cert-date">Oktyabr 2022</div>
-                </div>
-
-                <div class="cert-row">
-                    <div>
-                        <div class="cert-name">Layihələrin İdarə Olunması</div>
-                        <div class="cert-org">Azərbaycan Texniki Universiteti</div>
-                    </div>
-                    <div class="cert-date">17 Mart 2022</div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- ŞƏXSİ LAYİHƏLƏR -->
-        <div class="section" id="layiheler">
-            <h2 class="section-heading"><span></span>Şəxsi Layihələr</h2>
-
-            <div class="project-card">
-                <div class="project-title">Biznes Tələbləri Sənədi (BRD)</div>
-                <p class="project-desc">EduX Sertifikatlaşdırma Sisteminin Avtomatlaşdırılması üzrə hazırlanmış biznes
-                    tələbləri sənədi. Proses analizi, maraqlı tərəflərin müəyyənləşdirilməsi və sistem tələblərinin
-                    sənədləşdirilməsini əhatə edir.</p>
-                <a class="project-link"
-                    href="https://swift-noise-6de.notion.site/EduX-Sertifikatla-d-rma-Sisteminin-Avtomatla-d-r-lmas-34c604d0d07480408851dab51ebcc166"
-                    target="_blank">Layihəyə bax →</a>
-            </div>
-
-            <div class="project-card">
-                <div class="project-title">Power BI: Satış Analitikası Dashboard</div>
-                <p class="project-desc">Satış məlumatları üzərində interaktiv Power BI dashboard. Satış trendlərinin
-                    vizuallaşdırılması, regional analiz və performans göstəriciləri daxildir.</p>
-                <a class="project-link" href="https://github.com/NazrinOsmanova/Sales_Dashboard"
-                    target="_blank">GitHub-da bax →</a>
-            </div>
-
-            <div class="project-card">
-                <div class="project-title">PCA: Yüksək Ölçülü Tibbi Verilənlərin Analizi</div>
-                <p class="project-desc">Breast cancer (sinə xərçəngi) verilənlər bazasında Principal Component Analysis
-                    (PCA) tətbiqi. Yüksək ölçülü tibbi məlumatların ölçülülüyünün azaldılması və klasifikasiyası.</p>
-                <a class="project-link" href="https://github.com/NazrinOsmanova/PCA_Analysis_Breast_Cancer"
-                    target="_blank">GitHub-da bax →</a>
-            </div>
-        </div>
-
-        <!-- ŞƏXSİ MƏLUMATLAR -->
-        <div class="section" id="melumatlar">
-            <h2 class="section-heading"><span></span>Şəxsi Məlumatlar</h2>
-
-            <div class="info-grid">
-                <div class="info-item">
-                    <div class="info-label">Ünvan</div>
-                    <div class="info-value">Azərbaycan, Bakı, Xətai</div>
-                </div>
-                <div class="info-item">
-                    <div class="info-label">Email</div>
-                    <div class="info-value">nazrinosmanovaa@gmail.com</div>
-                </div>
-                <div class="info-item">
-                    <div class="info-label">LinkedIn</div>
-                    <div class="info-value"><a href="https://www.linkedin.com/in/nazrin-osmanova/" target="_blank"
-                            style="color:var(--lavender-dark); text-decoration:none;">linkedin.com/in/nazrin-osmanova/</a></div>
-                </div>
-                <div class="info-item">
-                    <div class="info-label">GitHub</div>
-                    <div class="info-value"><a href="https://github.com/NazrinOsmanova" target="_blank"
-                            style="color:var(--lavender-dark); text-decoration:none;">NazrinOsmanova</a></div>
-                </div>
-            </div>
-
-            <!-- <div class="card rose" style="margin-top: 20px;">
-                <div class="card-accent"></div>
-                <div class="card-title" style="margin-bottom:10px;">Referans</div>
-                <div class="card-body">
-                    <strong>Elçin Bəşirov</strong> – Yay təcrübə proqramı, Layihə rəhbəri<br>
-                    <span style="color:var(--text-light); font-size:0.82rem;">Əlaqə: (+994) xxx</span>
-                </div>
-            </div> -->
-        </div>
-
-        <!-- DİL BİLİKLƏRİ -->
-        <div class="section" id="dil">
-            <h2 class="section-heading"><span></span>Dil Bilikləri</h2>
-
-            <div class="card lavender" style="padding-bottom: 8px;">
-                <div class="card-accent"></div>
-
-                <div class="lang-row">
-                    <div>
-                        <div class="lang-name">Azərbaycan dili</div>
-                        <div style="font-size:0.8rem; color:var(--text-light); margin-top:2px;">Ana dil</div>
-                    </div>
-                    <span class="lang-badge native">Ana dil</span>
-                </div>
-
-                <div class="lang-row">
-                    <div>
-                        <div class="lang-name">İngilis dili</div>
-                        <div style="font-size:0.8rem; color:var(--text-light); margin-top:2px;">APTIS sertifikatı</div>
-                    </div>
-                    <span class="lang-badge b1">B1</span>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
+    <!-- ── CONTENT ── -->
+    <div class="content-area" id="contentArea"></div>
 
     <script src="script.js"></script>
-    <!-- <script>
-        function showSection(id, btn) {
-            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-            document.querySelectorAll('.nav-tabs button').forEach(b => b.classList.remove('active'));
-            document.getElementById(id).classList.add('active');
-            btn.classList.add('active');
-        }
-    </script> -->
 </body>
 
 </html>
