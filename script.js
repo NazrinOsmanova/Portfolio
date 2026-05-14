@@ -5,11 +5,11 @@
 const TABS = [
     { id: 'tehsil', label: 'Təhsil' },
     { id: 'tecrube', label: 'Təcrübə' },
-    { id: 'konulluluq', label: 'Könüllülük' },
     { id: 'bacariqlar', label: 'Texniki Bacarıqlar' },
     { id: 'sertifikatlar', label: 'Sertifikatlar' },
-    { id: 'layiheler', label: 'Şəxsi Layihələr' },
+    { id: 'layiheler', label: 'Layihələr / Praktik İşlər' },
     { id: 'melumatlar', label: 'Şəxsi Məlumatlar' },
+    { id: 'konulluluq', label: 'Könüllülük' },
     { id: 'dil', label: 'Dil Bilikləri' },
 ];
 
@@ -74,13 +74,59 @@ const VOLUNTEERING = [
     },
     {
         color: 'rose',
+        title: 'Baku Session (Sound of Caucasus) – Tədbir heyətinin üzvü',
+        date: 'Fevral 2026',
+        subtitle: 'Staff Member',
+        items: [
+            'İştirakçıların suallarının cavablandırılması və düzgün yönləndirilməsinin təmin edilməsi;',
+            'Tədbir ərazisində nizam-intizamın qorunmasına nəzarət edilməsi;',
+            'Təşkilati proseslərə dəstəyin göstərilməsi.',
+        ],
+    },
+    {
+        color: 'peach',
+        title: 'IZfest – Tədbir heyətinin üzvü',
+        date: 'Oktyabr 2025',
+        subtitle: 'Staff Member',
+        items: [
+            'Tədbir və konsert öncəsi hazırlıq işlərində iştirak və tapşırıqların yerinə yetirilməsi;',
+            'Qonaqların qarşılanması və yönləndirilməsi;',
+            'Qonaqların suallarının cavablandırılması və yaranan problemlərin həll edilməsi.',
+        ],
+    },
+    {
+        color: 'rose',
+        title: 'FrontEnd üzrə müsabiqə – Mentor',
+        date: 'May 2024',
+        subtitle: 'Mentor',
+        items: [
+            'Tapşırıqlar zamanı tələbə komandalarına rəhbərlik və dəstəyin göstərilməsi;',
+            'Texniki sualların cavablandırılması;',
+            'Problemlərin həlli strategiyalarının izah edilməsi;',
+            'Komanda əməkdaşlığının dəstəklənməsi.',
+        ],
+    },
+    {
+        color: 'peach',
         title: '"Müasir Gənclərin İnkişafına Dəstək" İctimai Birliyi – Koordinator',
         date: 'May 2023 – Sentyabr 2023',
         subtitle: 'Könüllü Koordinator',
         items: [
-            'Tələblərə uyğun layihə təkliflərinin hazırlanması və təklif olunması;',
+            'Tələblərə uyğun layihə təkliflərinin hazırlanması və təqdim olunması;',
             'Təhsil sahəsinə aid yeni layihə ideyalarının formalaşdırılması və yazılması;',
-            'Tədbir və təlim planlarının yaradılması və təşkili.',
+            'Tədbir və təlim planlarının hazırlanması və təşkili.',
+        ],
+    },
+    {
+        color: 'rose',
+        title: 'Azərbaycan Dövlət Neft və Sənaye Universiteti (Aurora Team) – Layihə Meneceri',
+        date: 'Fevral 2023 – May 2023',
+        subtitle: 'Project Manager',
+        items: [
+            'Layihə tapşırıqları və vaxt planlarının koordinasiyası və idarə olunması;',
+            'Layihənin uyğunluğu və inkişafının təmin edilməsi üçün komanda üzvləri ilə kommunikasiya;',
+            'Layihə çətinliklərinin həlli üçün risklərin qiymətləndirilməsi və problemlərin həlli;',
+            'Layihə mərhələləri və nəticələri üzrə hesabat və sənədləşdirmə işlərinin aparılması.',
         ],
     },
 ];

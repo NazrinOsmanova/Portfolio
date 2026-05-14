@@ -52,7 +52,7 @@ body {
 /* ── HEADER ── */
 .header-blob {
     background: linear-gradient(135deg, #fce8ec 0%, #ede7fb 50%, #e0eefb 100%);
-    padding: 52px 40px 44px;
+    padding: 40px 40px 34px;
     position: relative;
     overflow: hidden;
 }
@@ -130,7 +130,7 @@ body {
     font-size: 1rem;
     color: var(--text-muted);
     line-height: 1.7;
-    max-width: 620px;
+    max-width: 720px;
 }
 
 .contact-chips {
@@ -169,7 +169,8 @@ body {
 .nav-wrap {
     max-width: 880px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 10px 0px 20px;
+    border-bottom: 1px solid gainsboro;
 }
 
 .nav-tabs {
@@ -211,7 +212,7 @@ body {
 .content-area {
     max-width: 880px;
     margin: 0 auto;
-    padding: 36px 40px 0;
+    padding: 25px 0px;
 }
 
 .section {
@@ -241,7 +242,7 @@ body {
     font-size: 1.7rem;
     font-weight: 400;
     color: var(--text);
-    margin-bottom: 26px;
+    margin-bottom: 12px;
     letter-spacing: -0.2px;
     display: flex;
     align-items: center;
@@ -342,6 +343,7 @@ body {
 
 .card-body ul li {
     margin-bottom: 6px;
+    list-style: disc;
 }
 
 /* ── SKILLS ── */
