@@ -125,21 +125,21 @@ const portfolioData = {
                 description: "Biznes proses modelləşdirmə və workflow layihələri",
                 items: [
                     {
-                        name: "İşə Qəbul Prosesinin Modelləşdirilməsi",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Şirkətin işə qəbul axını BPMN 2.0 standartı ilə modelləşdirilmiş, hər mərhələ üçün cavabdeh şəxslər müəyyən edilmişdir.",
-                        link: null,
+                        name: "Onlayn Kurs Platformasında Sertifikatlaşdırma Prosesinin Avtomatlaşdırılması: Proses Analizi (AS-IS və TO-BE)",
+                        description: "Bu layihədə EduX onlayn təhsil platformasında mövcud olan manual sertifikat müraciəti prosesini analiz edilib. ",
+                        link: "https://swift-noise-6de.notion.site/Onlayn-Kurs-Platformas-nda-Sertifikatla-d-rma-Prosesinin-Avtomatla-d-r-lmas-Proses-Analizi-AS-IS--348604d0d074807fa30fcae5b5a02eb9",
                         tags: ["BPMN", "Workflow"]
                     },
                     {
-                        name: "Satınalma Proses Axını",
-                        description: "Lorem ipsum dolor sit amet. Satınalma departamentinin iş axınının BPMN vasitəsilə modelləşdirilməsi, risk nöqtələrinin müəyyən edilməsi və optimallaşdırma tövsiyələrinin hazırlanması.",
-                        link: null,
-                        tags: ["BPMN", "Proses Analizi"]
+                        name: "Yemək Sifarişi və Çatdırılma Prosesi – Swimlane Diaqramı",
+                        description: "Bu diaqram Food Delivery Process Workflow üçün hazırlanmış swimlane modelidir. Məqsəd sifarişin verilməsindən müştəriyə çatdırılmasına qədər olan bütün mərhələləri və iştirakçı rolları vizuallaşdırmaqdır.",
+                        link: "https://swift-noise-6de.notion.site/Yem-k-Sifari-i-v-atd-r-lma-Prosesi-Swimlane-Diaqram-346604d0d074802fab4ae966dfbc906a",
+                        tags: ["BPMN", "Swimlane Diagram"]
                     },
                     {
-                        name: "Müştəri Şikayət İdarəetmə Prosesi",
-                        description: "Lorem ipsum dolor sit amet, consectetur. Müştəri şikayətlərinin qəbulundan bağlanmasına qədər olan bütün proses axınının sənədləşdirilməsi və vizuallaşdırılması.",
-                        link: null,
+                        name: "Yeni Məhsulun Hazırlanması və İstehsalı Prosesi",
+                        description: "Bu diaqram Product Development and Production Workflow çərçivəsində məhsulun ideya mərhələsindən başlayaraq istehsala qədər olan əsas prosesləri əks etdirir.",
+                        link: "https://swift-noise-6de.notion.site/Yeni-M-hsulun-Haz-rlanmas-v-stehsal-Prosesi-346604d0d074806cb7d9c4520bdcd2a5",
                         tags: ["BPMN", "Lucidchart"]
                     }
                 ]
