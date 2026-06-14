@@ -71,6 +71,7 @@ const portfolioData = {
         ],
 
         certificates: [
+            { name: "Yeni başlayanlar üçün Power BI", issuer: "Simplilearn", date: "14 İyun 2026", link: "https://simpli-web.app.link/e/mWIjpuqpY3b" },
             { name: "Biznes İntellekti Əsasları", issuer: "Simplilearn", date: "11 Mart 2026", link: "https://simpli-web.app.link/e/7KqJEjSWp1b" },
             { name: "Proses Mədənçiliyi: Məlumat Elminin Tətbiqi", issuer: "Eindhoven Texnologiya Universiteti", date: "6 Dekabr 2025", link: "https://www.coursera.org/account/accomplishments/verify/Z13VGLSC044Z" },
             { name: "Biznes Analitikanın Əsasları", issuer: "IBM", date: "15 Sentyabr 2025", link: "https://www.coursera.org/account/accomplishments/verify/W8F5R5WJL71P" },
@@ -141,7 +142,43 @@ const portfolioData = {
                         description: "Bu diaqram Product Development and Production Workflow çərçivəsində məhsulun ideya mərhələsindən başlayaraq istehsala qədər olan əsas prosesləri əks etdirir.",
                         link: "https://swift-noise-6de.notion.site/Yeni-M-hsulun-Haz-rlanmas-v-stehsal-Prosesi-346604d0d074806cb7d9c4520bdcd2a5",
                         tags: ["BPMN", "Lucidchart"]
-                    }
+                    },
+                    {
+                        name: "Sığorta Hadisəsinin İdarə Olunması Prosesi",
+                        description: "Bu flowchart sığorta hadisələrinin idarə olunması prosesini əks etdirir. Proses qəza haqqında məlumatın qəbul edilməsi, hadisə yerindən sübutların toplanması, qiymətləndirmə və ödəniş qərarının verilməsi ilə davam edir. Müştərinin razı qalmadığı hallarda yenidən baxılma, şikayət və hüquqi prosedurlar kimi alternativ yollar da göstərilmişdir.",
+                        link: "https://swift-noise-6de.notion.site/S-orta-Hadis-sinin-dar-Olunmas-Prosesi-346604d0d0748019bd1eeaba723b034d",
+                        tags: ["Insurance", "Procedure"]
+                    },
+                    {
+                        name: "Müştəri Təkliflərinin Qiymətləndirilməsi və Müqavilə Prosesi",
+                        description: "Bu flowchart sığorta satış prosesini əhatə edir. Proses müştəridən təklifin qəbul olunması və uyğunluğun yoxlanılması ilə başlayır, daha sonra müştəri məlumatları toplanır və risklər qiymətləndirilir. Buna əsasən uyğun təkliflər hazırlanır və müştəriyə təqdim olunur. Müştərinin qərarına uyğun olaraq ya müqavilə bağlanır, ya da təklif yenidən nəzərdən keçirilir və proses iterativ şəkildə davam edir.",
+                        link: "https://swift-noise-6de.notion.site/M-t-ri-T-klifl-rinin-Qiym-tl-ndirilm-si-v-M-qavil-Prosesi-346604d0d0748063824de1ee5a39d5ce",
+                        tags: ["Insurance", "Procedure"]
+                    },
+                    {
+                        name: "İstifadəçi Yaradılması və Giriş İdarəetmə Prosesi",
+                        description: "Bu flowchart HR tərəfindən sorğunun yaradılması ilə başlayan və rəhbər təsdiqindən sonra IT-də istifadəçi hesabının açılması, OU və atributların təyin edilməsi, qrupların avtomatik və ya manual verilməsi və mövcudluq/səlahiyyət yoxlamaları ilə davam edən onboarding prosesini göstərir.",
+                        link: "https://swift-noise-6de.notion.site/stifad-i-Yarad-lmas-v-Giri-dar-etm-Prosesi-346604d0d07480f3b896d06b78507d19",
+                        tags: ["Giriş və İcazə İdarəetməsi"]
+                    },
+                    {
+                        name: "ITSM üzərindən istifadəçi yaradılması və səlahiyyət verilməsi prosesi",
+                        description: "Bu diaqram ITSM sistemi üzərindən yeni istifadəçinin yaradılması, məlumatların yoxlanması, uyğun sistemdə hesabın açılması və rol/səlahiyyətlərin verilməsi prosesini göstərir.",
+                        link: "https://swift-noise-6de.notion.site/ITSM-z-rind-n-istifad-i-yarad-lmas-v-s-lahiyy-t-verilm-si-prosesi-346604d0d074802ba84aea9ff783c856",
+                        tags: ["ITSM", "İstifadəçi İdarəetməsi"]
+                    },
+                    {
+                        name: "İstifadəçi hesabının deaktiv edilməsi və bərpası prosesi",
+                        description: "Bu diaqram ITSM üzərindən istifadəçi hesablarının deaktiv edilməsi, silinməsi və bərpası prosesini, o cümlədən hesab və mail qutusunun bərpası əməliyyatlarını təsvir edir.",
+                        link: "https://swift-noise-6de.notion.site/stifad-i-hesab-n-n-deaktiv-edilm-si-v-b-rpas-prosesi-346604d0d07480a98233c1325bd0dbb6",
+                        tags: ["ITSM", "İstifadəçi İdarəetməsi"]
+                    },
+                    // {
+                    //     name: "",
+                    //     description: "",
+                    //     link: "",
+                    //     tags: ["Insurance", "Procedure"]
+                    // },
                 ]
             },
             brd: {
@@ -312,6 +349,7 @@ const portfolioData = {
         ],
 
         certificates: [
+            { name: "Power BI for Beginners", issuer: "Simplilearn", date: "June 14, 2026", link: "https://simpli-web.app.link/e/mWIjpuqpY3b" },
             { name: "Business Intelligence Foundations", issuer: "Simplilearn", date: "March 11, 2026", link: "https://simpli-web.app.link/e/7KqJEjSWp1b" },
             { name: "Process Mining: Data Science in Action", issuer: "Eindhoven University of Technology", date: "December 6, 2025", link: "https://www.coursera.org/account/accomplishments/verify/Z13VGLSC044Z" },
             { name: "Business Analytics Essentials", issuer: "IBM", date: "September 15, 2025", link: "https://www.coursera.org/account/accomplishments/verify/W8F5R5WJL71P" },
@@ -366,23 +404,53 @@ const portfolioData = {
                 description: "Business process modeling and workflow projects",
                 items: [
                     {
-                        name: "Recruitment Process Modeling",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. The company's recruitment flow was modeled using the BPMN 2.0 standard, with responsible persons identified for each stage.",
-                        link: null,
+                        name: "Automating the Certification Process in an Online Course Platform: Process Analysis (AS-IS and TO-BE)",
+                        description: "In this project, the manual certification application process existing in the EduX online education platform was analyzed. ",
+                        link: "https://swift-noise-6de.notion.site/Onlayn-Kurs-Platformas-nda-Sertifikatla-d-rma-Prosesinin-Avtomatla-d-r-lmas-Proses-Analizi-AS-IS--348604d0d074807fa30fcae5b5a02eb9",
                         tags: ["BPMN", "Workflow"]
                     },
                     {
-                        name: "Procurement Process Flow",
-                        description: "Lorem ipsum dolor sit amet. Modeling of the procurement department's workflow using BPMN, identification of risk points, and preparation of optimization recommendations.",
-                        link: null,
-                        tags: ["BPMN", "Process Analysis"]
+                        name: "Food Order and Delivery Process – Swimlane Diagram",
+                        description: "This diagram is a swimlane model prepared for the Food Delivery Process Workflow. The goal is to visualize all stages and participant roles from placing an order to delivering it to the customer.",
+                        link: "https://swift-noise-6de.notion.site/Yem-k-Sifari-i-v-atd-r-lma-Prosesi-Swimlane-Diaqram-346604d0d074802fab4ae966dfbc906a",
+                        tags: ["BPMN", "Swimlane Diagram"]
                     },
                     {
-                        name: "Customer Complaint Management Process",
-                        description: "Lorem ipsum dolor sit amet, consectetur. Documentation and visualization of the entire process flow from receipt to closure of customer complaints.",
-                        link: null,
+                        name: "New Product Development and Production Process",
+                        description: "This diagram reflects the main processes from the idea stage of the product to production within the framework of the Product Development and Production Workflow.",
+                        link: "https://swift-noise-6de.notion.site/Yeni-M-hsulun-Haz-rlanmas-v-stehsal-Prosesi-346604d0d074806cb7d9c4520bdcd2a5",
                         tags: ["BPMN", "Lucidchart"]
-                    }
+                    },
+                    {
+                        name: "Insurance Incident Management Process",
+                        description: "This flowchart illustrates the insurance incident management process. The process continues with the receipt of information about the accident, the collection of evidence from the scene, the assessment and the issuance of a payment decision. In cases where the customer is not satisfied, alternative avenues such as review, complaint and legal procedures are also shown.",
+                        link: "https://swift-noise-6de.notion.site/S-orta-Hadis-sinin-dar-Olunmas-Prosesi-346604d0d0748019bd1eeaba723b034d",
+                        tags: ["Insurance", "Procedure"]
+                    },
+                    {
+                        name: "Customer Proposal Evaluation and Contract Process",
+                        description: "This flowchart covers the insurance sales process. The process begins with the acceptance of a proposal from the customer and checking its suitability, then customer information is collected and risks are assessed. Based on this, suitable proposals are prepared and presented to the customer. In accordance with the customer's decision either a contract is concluded or the proposal is revised and the process continues iteratively.",
+                        link: "https://swift-noise-6de.notion.site/M-t-ri-T-klifl-rinin-Qiym-tl-ndirilm-si-v-M-qavil-Prosesi-346604d0d0748063824de1ee5a39d5ce",
+                        tags: ["Insurance", "Procedure"]
+                    },
+                    {
+                        name: "User Creation and Access Management Process",
+                        description: "This flowchart shows the onboarding process that begins with the creation of a request by HR and continues with the creation of a user account in IT, assignment of OUs and attributes, automatic or manual provisioning of groups, and presence/authorization checks.",
+                        link: "https://swift-noise-6de.notion.site/stifad-i-Yarad-lmas-v-Giri-dar-etm-Prosesi-346604d0d07480f3b896d06b78507d19",
+                        tags: ["Login and Permission Management"]
+                    },
+                    {
+                        name: "User creation and authorization process via ITSM",
+                        description: "This diagram shows the process of creating a new user via the ITSM system, verifying information, opening an account in the appropriate system and assigning roles/authorities.",
+                        link: "https://swift-noise-6de.notion.site/ITSM-z-rind-n-istifad-i-yarad-lmas-v-s-lahiyy-t-verilm-si-prosesi-346604d0d074802ba84aea9ff783c856",
+                        tags: ["ITSM", "User Management"]
+                    },
+                    {
+                        name: "User Account Deactivation and Recovery Process",
+                        description: "This diagram illustrates the process of deactivating, deleting, and recovering user accounts through ITSM, including account and mailbox recovery operations.",
+                        link: "https://swift-noise-6de.notion.site/stifad-i-hesab-n-n-deaktiv-edilm-si-v-b-rpas-prosesi-346604d0d07480a98233c1325bd0dbb6",
+                        tags: ["ITSM", "User Management"]
+                    },
                 ]
             },
             brd: {
