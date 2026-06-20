@@ -15,7 +15,10 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'G-WX5K6SW3M8');
+        // Localhost-da tracking işləməsin
+        if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+            gtag('config', 'G-WX5K6SW3M8');
+        }
     </script>
 </head>
 
