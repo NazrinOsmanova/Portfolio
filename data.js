@@ -28,9 +28,18 @@ const portfolioData = {
 
         experience: [
             {
+                company: "Baku Electronics (Proseslərin İdarəedilməsi Departamenti)",
+                role: "Təcrübəçi",
+                period: "1 İyul 2026 – Davam edir",
+                tasks: [
+                    "Kredit borclarının ödənişi üzrə 'As-Is' və 'To-Be' diaqramlarının, həmçinin müvafiq biznes ssenarilərinin (Use Case və Sequence diaqramlarının) hazırlanması;",
+                    "Mövcud hesabatlar (bank və robot sistemləri) arasındakı uyğunsuzluqların və kənarlaşmaların müəyyən edilməsi vasitəsilə proseslərin təhlili və daxili sənədlərlə iş fəaliyyətində iştirak edilməsi."
+                ]
+            },
+            {
                 company: "Buta Group",
                 role: "Təcrübəçi",
-                period: "Oktyabr 2024 – Yanvar 2025",
+                period: "7 Oktyabr 2024 – 12 Fevral 2025",
                 tasks: [
                     "Excel vasitəsilə əməliyyat və biznes məlumatlarının təhlili, vizuallaşdırılması və hesabatların hazırlanması prosesində iştirak;",
                     "Müxtəlif biznes istiqamətləri üzrə SWOT analizlərinin hazırlanaraq strateji qiymətləndirmə proseslərinə dəstək göstərilməsi;",
@@ -41,7 +50,7 @@ const portfolioData = {
             {
                 company: "Azersun Holdinq (Proseslərin İnkişafı Departamenti)",
                 role: "Təcrübəçi",
-                period: "İyul 2024 – Sentyabr 2024",
+                period: "21 İyul 2024 – 21 Sentyabr 2024",
                 tasks: [
                     "BPMN vasitəsilə biznes proseslərinin modelləşdirilməsi və proses axınlarının analizində iştirak edərək əməliyyat mərhələlərinin daha strukturlaşdırılmış formada sənədləşdirilməsinə dəstək göstərilməsi;",
                     "Müxtəlif şöbələr üzrə workflow-ların hazırlanması və mövcud proseslərin təhlili vasitəsilə proses optimallaşdırılması fəaliyyətlərində iştirak;",
@@ -208,7 +217,21 @@ const portfolioData = {
                         tags: ["Data Analiz", "PCA"]
                     }
                 ]
-            }
+            },
+            umldiagrams: {
+                label: "UML Diaqramlar",
+                icon: "⚙️",
+                color: "#F2C811",
+                description: "Unified Modeling Language - Sequence, Use Case, Class, Activity, State və s. diaqramlar",
+                items: [
+                    {
+                        name: "Məhsul Təmiri Prosesi",
+                        description: "Bu layihə, şirkət müştərilərinin zədələnmiş / nasaz məhsullarını filiallar vasitəsilə servis mərkəzinə göndərməsi, ustanın diaqnostika və təmir prosesi, geri logistika və müştəriyə təhvil zəncirinin rəqəmsallaşdırılması məqsədilə hazırlanmışdır.",
+                        link: "https://swift-noise-6de.notion.site/M-hsul-T-miri-Prosesi-399604d0d07480e6ae13fb092619bb1e",
+                        tags: ["draw.io", "Modelləşdirmə", "Sequence Diagram"]
+                    }
+                ]
+            },
         },
 
         volunteer: [
@@ -306,9 +329,18 @@ const portfolioData = {
 
         experience: [
             {
+                company: "Baku Electronics (Process Management Department)",
+                role: "Intern",
+                period: "July 1, 2026 – Ongoing",
+                tasks: [
+                    "Preparation of 'As-Is' and 'To-Be' diagrams for the repayment of credit debts, as well as relevant business scenarios (Use Case and Sequence diagrams);",
+                    "Analysis of processes and participation in work with internal documents by identifying discrepancies and deviations between existing reports (bank and robotic systems)."
+                ]
+            },
+            {
                 company: "Buta Group",
                 role: "Intern",
-                period: "October 2024 – January 2025",
+                period: "October 7, 2024 – January 12, 2025",
                 tasks: [
                     "Participated in the analysis, visualization, and reporting of operational and business data using Excel;",
                     "Prepared SWOT analyses for various business directions to support strategic evaluation processes;",
@@ -319,7 +351,7 @@ const portfolioData = {
             {
                 company: "Azersun Holding (Process Development Department)",
                 role: "Intern",
-                period: "July 2024 – September 2024",
+                period: "July 21, 2024 – September 21, 2024",
                 tasks: [
                     "Participated in business process modeling with BPMN and process flow analysis, supporting more structured documentation of operational stages;",
                     "Involved in workflow development for various departments and process optimization activities through analysis of existing processes;",
@@ -480,7 +512,21 @@ const portfolioData = {
                         tags: ["Data Analysis", "PCA"]
                     }
                 ]
-            }
+            },
+            umldiagrams: {
+                label: "UML Diagrams",
+                icon: "⚙️",
+                color: "#F2C811",
+                description: "Unified Modeling Language - Sequence, Use Case, Class, Activity, State və s. diagrams",
+                items: [
+                    {
+                        name: "Product Repair Process",
+                        description: "This project was developed to allow the company's customers to send damaged/defective products to the service center through branches, digitize the master's diagnostic and repair process, reverse logistics, and the delivery chain to the customer.",
+                        link: "https://swift-noise-6de.notion.site/M-hsul-T-miri-Prosesi-399604d0d07480e6ae13fb092619bb1e",
+                        tags: ["draw.io", "Modeling", "Sequence Diagram"]
+                    }
+                ]
+            },
         },
 
         volunteer: [
