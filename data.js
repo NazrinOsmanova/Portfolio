@@ -121,11 +121,17 @@ const portfolioData = {
                 description: "İnteraktiv dashboard və satış analitikası layihələri",
                 items: [
                     {
+                        name: "HR Analytics Dashboard",
+                        description: "İşçi qüvvəsi və kadr axını (attrition) üzərində interaktiv Power BI dashboard. Demoqrafik analiz, əməkhaqqı bölgüsü və kadr itkisinin səbəblərinin vizuallaşdırılması daxildir.",
+                        link: "https://github.com/NazrinOsmanova/HR_Analytics_Dashboard",
+                        tags: ["Power BI", "HR Analytics", "DAX", "Power Query"]
+                    },
+                    {
                         name: "Satış Analitikası Dashboard",
                         description: "Satış məlumatları üzərində interaktiv Power BI dashboard. Satış trendlərinin vizuallaşdırılması, regional analiz və performans göstəriciləri daxildir.",
                         link: "https://github.com/NazrinOsmanova/Sales_Dashboard",
-                        tags: ["Power BI", "Data Vizuallaşdırma"]
-                    }
+                        tags: ["Power BI", "Data Vizuallaşdırma", "Satış Analitikası"]
+                    },
                 ]
             },
             bpmn: {
@@ -422,10 +428,16 @@ const portfolioData = {
                 description: "Interactive dashboards and sales analytics projects",
                 items: [
                     {
+                        name: "HR Analytics Dashboard",
+                        description: "Interactive Power BI dashboard on workforce and attrition. Includes demographic analysis, salary breakdown, and visualization of reasons for staff loss.",
+                        link: "https://github.com/NazrinOsmanova/HR_Analytics_Dashboard",
+                        tags: ["Power BI", "HR Analytics", "DAX", "Power Query"]
+                    },
+                    {
                         name: "Sales Analytics Dashboard",
                         description: "Interactive Power BI dashboard on sales data. Includes visualization of sales trends, regional analysis, and performance indicators.",
                         link: "https://github.com/NazrinOsmanova/Sales_Dashboard",
-                        tags: ["Power BI", "Data Visualization"]
+                        tags: ["Power BI", "Data Visualization", "Sales Analytics"]
                     }
                 ]
             },
