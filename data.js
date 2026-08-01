@@ -2,7 +2,7 @@ const portfolioData = {
     az: {
         personal: {
             name: "Nəzrin Osmanova",
-            title: "Biznes & Data Analitik",
+            title: "Proseslərin İdarəedilməsi üzrə Kiçik Mütəxəssis",
             email: "nazrinosmanovaa@gmail.com",
             linkedin: "https://www.linkedin.com/in/nazrin-osmanova/",
             portfolio: "https://nazrinosmanova.github.io/Portfolio/",
@@ -28,7 +28,7 @@ const portfolioData = {
 
         experience: [
             {
-                company: "Baku Electronics (Proseslərin İdarəedilməsi Departamenti)",
+                company: "Baku Electronics (Proseslərin İdarəedilməsi Şöbəsi)",
                 role: "Təcrübəçi",
                 period: "1 İyul 2026 – Davam edir",
                 tasks: [
@@ -57,12 +57,22 @@ const portfolioData = {
                     "Risklərin müəyyənləşdirilməsi və qiymətləndirilməsi üçün risk matrisi hazırlanması və proses risklərinin təhlili;",
                     "Şirkətdaxili prosedur və sənədlərin standartlara uyğun şəkildə hazırlanması, yenilənməsi və sistemləşdirilməsi prosesində iştirak."
                 ]
+            },
+            {
+                company: "Fərdi repetitorluq",
+                role: "Riyaziyyat müəllimi",
+                period: "28 Yanvar 2024 – 15 İyun 2024",
+                tasks: [
+                    "Fərdiləşdirilmiş tədris planlarının hazırlanması",
+                    "Fundamental riyazi anlayışların öyrədilməsi",
+                    "Materialların şagirdlərin mənimsəmə səviyyəsinə uyğunlaşdırılması"
+                ]
             }
         ],
 
         technicalSkills: [
             { category: "Analitik Alətlər", items: ["SQL (MsSQL)", "Power BI (Power Query, Vizuallaşdırma)", "Data təmizlənməsi və analizi"] },
-            { category: "Biznes Prosesləri və Modelləşdirmə", items: ["Biznes tələblərinin sənədləşdirilməsi (BRD hazırlanması)", "BPMN", "Lucidchart", "Proseslərin optimallaşdırılması"] },
+            { category: "Biznes Prosesləri və Modelləşdirmə", items: ["Biznes tələblərinin sənədləşdirilməsi (BRD hazırlanması)", "BPMN", "MS Visio", "Lucidchart", "DR Explain", "Proseslərin optimallaşdırılması"] },
             { category: "Ofis Proqramları", items: ["Word", "Excel", "PowerPoint", "Outlook"] },
             { category: "Layihə İdarəetməsi", items: ["Layihə idarəetmə metodologiyaları üzrə təməl biliklər", "Trello", "ClickUp", "Odoo"] },
             { category: "Texniki Baza", items: ["Alqoritmik düşüncə", "Proqramlaşdırmanın əsasları", "GitHub"] }
@@ -309,7 +319,7 @@ const portfolioData = {
     en: {
         personal: {
             name: "Nazrin Osmanova",
-            title: "Business & Data Analyst",
+            title: "Junior Process Management Specialist",
             email: "nazrinosmanovaa@gmail.com",
             linkedin: "https://www.linkedin.com/in/nazrin-osmanova/",
             portfolio: "https://nazrinosmanova.github.io/Portfolio/",
@@ -364,12 +374,22 @@ const portfolioData = {
                     "Prepared risk matrices for risk identification and assessment, and analyzed process risks;",
                     "Participated in the preparation, updating, and systematization of internal procedures and documents to standard requirements."
                 ]
+            },
+            {
+                company: "Private tutor",
+                role: "Mathematics teacher",
+                period: "January 28, 2024 – June 15, 2024",
+                tasks: [
+                    "Developing personalized curricula",
+                    "Teaching fundamental mathematical concepts",
+                    "Adapting materials to students' mastery levels"
+                ]
             }
         ],
 
         technicalSkills: [
             { category: "Analytical Tools", items: ["SQL (MsSQL)", "Power BI (Power Query, Visualization)", "Data cleaning and analysis"] },
-            { category: "Business Processes & Modeling", items: ["Business requirements documentation (BRD preparation)", "BPMN", "Lucidchart", "Process optimization"] },
+            { category: "Business Processes & Modeling", items: ["Business requirements documentation (BRD preparation)", "BPMN", "MS Visio", "Lucidchart", "DR Explain", "Process optimization"] },
             { category: "Office Applications", items: ["Word", "Excel", "PowerPoint", "Outlook"] },
             { category: "Project Management", items: ["Fundamental knowledge of project management methodologies", "Trello", "ClickUp", "Odoo"] },
             { category: "Technical Foundation", items: ["Algorithmic thinking", "Programming fundamentals", "GitHub"] }
