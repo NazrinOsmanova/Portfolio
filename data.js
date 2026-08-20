@@ -72,7 +72,7 @@ const portfolioData = {
 
         technicalSkills: [
             { category: "Analitik Alətlər", items: ["SQL (MsSQL)", "Power BI (Power Query, Vizuallaşdırma)", "Data təmizlənməsi və analizi"] },
-            { category: "Biznes Prosesləri və Modelləşdirmə", items: ["Biznes tələblərinin sənədləşdirilməsi (BRD hazırlanması)", "BPMN", "MS Visio", "Lucidchart", "DR Explain", "Proseslərin optimallaşdırılması"] },
+            { category: "Biznes Prosesləri və Modelləşdirmə", items: ["BPMN", "MS Visio", "Lucidchart", "Biznes tələblərinin sənədləşdirilməsi (BRD hazırlanması)", "Funksional tələblərin sənədləşdirilməsi (FRD hazırlanması)", "DR Explain", "Proseslərin optimallaşdırılması"] },
             { category: "Ofis Proqramları", items: ["Word", "Excel", "PowerPoint", "Outlook"] },
             { category: "Layihə İdarəetməsi", items: ["Layihə idarəetmə metodologiyaları üzrə təməl biliklər", "Trello", "ClickUp", "Odoo"] },
             { category: "Texniki Baza", items: ["Alqoritmik düşüncə", "Proqramlaşdırmanın əsasları", "GitHub"] }
@@ -90,7 +90,7 @@ const portfolioData = {
         ],
 
         certificates: [
-            { name: "Yeni başlayanlar üçün Power BI", issuer: "Simplilearn", date: "14 İyun 2026", link: "https://simpli-web.app.link/e/mWIjpuqpY3b" },
+            { name: "Yeni Başlayanlar üçün Power BI", issuer: "Simplilearn", date: "14 İyun 2026", link: "https://simpli-web.app.link/e/mWIjpuqpY3b" },
             { name: "Biznes İntellekti Əsasları", issuer: "Simplilearn", date: "11 Mart 2026", link: "https://simpli-web.app.link/e/7KqJEjSWp1b" },
             { name: "Proses Mədənçiliyi: Məlumat Elminin Tətbiqi", issuer: "Eindhoven Texnologiya Universiteti", date: "6 Dekabr 2025", link: "https://www.coursera.org/account/accomplishments/verify/Z13VGLSC044Z" },
             { name: "Biznes Analitikanın Əsasları", issuer: "IBM", date: "15 Sentyabr 2025", link: "https://www.coursera.org/account/accomplishments/verify/W8F5R5WJL71P" },
@@ -389,7 +389,7 @@ const portfolioData = {
 
         technicalSkills: [
             { category: "Analytical Tools", items: ["SQL (MsSQL)", "Power BI (Power Query, Visualization)", "Data cleaning and analysis"] },
-            { category: "Business Processes & Modeling", items: ["Business requirements documentation (BRD preparation)", "BPMN", "MS Visio", "Lucidchart", "DR Explain", "Process optimization"] },
+            { category: "Business Processes and Modeling", items: ["BPMN", "MS Visio", "Lucidchart", "Business Requirements Documentation (BRD Preparation)", "Functional Requirements Documentation (FRD Preparation)", "DR Explain", "Process Optimization"] },
             { category: "Office Applications", items: ["Word", "Excel", "PowerPoint", "Outlook"] },
             { category: "Project Management", items: ["Fundamental knowledge of project management methodologies", "Trello", "ClickUp", "Odoo"] },
             { category: "Technical Foundation", items: ["Algorithmic thinking", "Programming fundamentals", "GitHub"] }
@@ -564,12 +564,12 @@ const portfolioData = {
         volunteer: [
             {
                 org: "Sofar Baku",
-                role: "Event Staff Member",
+                role: "Venue Team Member",
                 period: "November 2025 – May 2026",
                 tasks: [
                     "Welcoming, directing, and answering questions from guests at concerts;",
                     "Operatively resolving issues that arose during events to ensure smooth concert operations;",
-                    "Close teamwork in carrying out and coordinating pre- and post-event tasks."
+                    "Close teamwork in carrying out and coordinating pre and post-event tasks."
                 ]
             },
             {
