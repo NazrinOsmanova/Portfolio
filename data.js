@@ -2,12 +2,12 @@ const portfolioData = {
     az: {
         personal: {
             name: "Nəzrin Osmanova",
-            title: "Proseslərin İdarəedilməsi üzrə Kiçik Mütəxəssis",
+            title: "İT Biznes Analitik / Proseslərin İdarəedilməsi üzrə Kiçik Mütəxəssis",
             email: "nazrinosmanovaa@gmail.com",
             linkedin: "https://www.linkedin.com/in/nazrin-osmanova/",
             portfolio: "https://nazrinosmanova.github.io/Portfolio/",
             address: "Azərbaycan, Bakı, Xətai",
-            about: "Data və biznes analitikası istiqamətində inkişaf edən gənc mütəxəssisəm. Excel, Power BI, SQL və BPMN üzrə praktiki biliklərə sahibəm. Təcrübə proqramları zamanı biznes proseslərinin təhlili, sənədləşdirilməsi və hesabat hazırlanması üzrə çalışmışam. Məqsədim məlumat əsaslı qərarvermə və analitika sahəsində karyera qurmaqdır.",
+            about: "Biznes analitikası və proses idarəetməsi üzrə təcrübəyə malikəm. BRD/FRD hazırlanması, BPMN modelləşdirilməsi və API inteqrasiyalarının təhlili üzrə praktiki bacarıqlara sahibəm. Böyük miqyaslı təcrübə proqramlarında proseslərin optimallaşdırılmasında çalışmışam. Məqsədim biznes proseslərinin rəqəmsallaşdırılması və təkmilləşdirilməsi sahəsində uğurlu karyera qurmaqdır.",
             github: "https://github.com/nazrinosmanova"
         },
 
@@ -32,8 +32,10 @@ const portfolioData = {
                 role: "Təcrübəçi",
                 period: "1 İyul 2026 – Davam edir",
                 tasks: [
-                    "Kredit borclarının ödənişi üzrə 'As-Is' və 'To-Be' diaqramlarının, həmçinin müvafiq biznes ssenarilərinin (Use Case və Sequence diaqramlarının) hazırlanması;",
-                    "Mövcud hesabatlar (bank və robot sistemləri) arasındakı uyğunsuzluqların və kənarlaşmaların müəyyən edilməsi vasitəsilə proseslərin təhlili və daxili sənədlərlə iş fəaliyyətində iştirak edilməsi."
+                    "Biznes Proseslərinin Analizi və Optimizasiyası (BPMN 2.0): Satış, logistika (sürücü/kuryer təyinatı), zəmanət və servis xidmətləri üzrə proses xəritələrinin Visio-da modelləşdirilməsi və şöbələr arası prosedur təlimatlarının aydınlaşdırılması prosesində iştirak;",
+                    "Funksional Tələblərin Sənədləşdirilməsi (FRD/BRD): Məhsul endirim sistemləri (müvafiq məhsullara avtomatik endirim) və bank inteqrasiyaları üçün detallı FRD sənədlərinin hazırlanması, İT və biznes gözləntilərinin uyğunlaşdırılmasına dəstək göstərilməsi;",
+                    "Məlumat Uzlaşdırılması və Keyfiyyətinə Nəzarət: Daxili ERP və bank/robot hesabatları arasındakı uyğunsuzluqların Excel vasitəsilə təhlil edilərək hesabatlılığın dəqiqliyinin təmin olunmasında iştirak;",
+                    "Sistem və Kampaniya Şərtlərinin Modelləşdirilməsi: Daxili bilik bazasının (DR Explain) yenilənməsi, korporativ təlimatların yeni sistemlərə adaptasiyası və kampaniyalarda dələduzluq (fraud) hallarının önlənməsi üçün biznes məntiqlərinin formalaşdırılmasına dəstək göstərilməsi."
                 ]
             },
             {
@@ -75,7 +77,7 @@ const portfolioData = {
             { category: "Biznes Prosesləri və Modelləşdirmə", items: ["BPMN", "MS Visio", "Lucidchart", "Biznes tələblərinin sənədləşdirilməsi (BRD hazırlanması)", "Funksional tələblərin sənədləşdirilməsi (FRD hazırlanması)", "DR Explain", "Proseslərin optimallaşdırılması"] },
             { category: "Ofis Proqramları", items: ["Word", "Excel", "PowerPoint", "Outlook"] },
             { category: "Layihə İdarəetməsi", items: ["Layihə idarəetmə metodologiyaları üzrə təməl biliklər", "Trello", "ClickUp", "Odoo"] },
-            { category: "Texniki Baza", items: ["Alqoritmik düşüncə", "Proqramlaşdırmanın əsasları", "GitHub"] }
+            { category: "Texniki Baza", items: ["APİ əsasları", "Alqoritmik düşüncə", "Proqramlaşdırmanın əsasları", "GitHub"] }
         ],
 
         softSkills: [
@@ -90,6 +92,9 @@ const portfolioData = {
         ],
 
         certificates: [
+            { name: "Komanda Quruculuğu", issuer: "BE Academy", date: "17 Avqust 2026", link: "http://be-academy.ru/cert_verify.php?code=06b5a4c711ea3c149c2482fd4bf3a50d" },
+            { name: "Zamanın İdarə Olunması", issuer: "BE Academy", date: "24 İyul 2026", link: "https://file.notion.so/f/f/769604d0-d074-816e-85b4-00030585eeec/b2658d53-cef5-493c-b740-61d3440c3c4b/Time_Management.jpg?table=block&id=3c6604d0-d074-8006-a236-f7e9513e4d43&spaceId=769604d0-d074-816e-85b4-00030585eeec&expirationTimestamp=1787608800000&signature=Ht84xTV0qfrSfZGncXprl2nC9ZRMw9BVlFL04b_cTjc&downloadName=Time+Management.jpg" },
+            { name: "Biznes Etikası", issuer: "BE Academy", date: "23 İyul 2026", link: "https://file.notion.so/f/f/769604d0-d074-816e-85b4-00030585eeec/40ab27c6-e0b2-41b7-96b5-85af7513ba91/Business_Ethics.jpg?table=block&id=3c6604d0-d074-8000-bf01-ccd0a479bdcc&spaceId=769604d0-d074-816e-85b4-00030585eeec&expirationTimestamp=1787608800000&signature=JC4iyNiO9hB1dcaeAlA7EUKpNjnqPFs-GTzdLgVSGK8&downloadName=Business+Ethics.jpg" },
             { name: "Yeni Başlayanlar üçün Power BI", issuer: "Simplilearn", date: "14 İyun 2026", link: "https://simpli-web.app.link/e/mWIjpuqpY3b" },
             { name: "Biznes İntellekti Əsasları", issuer: "Simplilearn", date: "11 Mart 2026", link: "https://simpli-web.app.link/e/7KqJEjSWp1b" },
             { name: "Proses Mədənçiliyi: Məlumat Elminin Tətbiqi", issuer: "Eindhoven Texnologiya Universiteti", date: "6 Dekabr 2025", link: "https://www.coursera.org/account/accomplishments/verify/Z13VGLSC044Z" },
@@ -319,12 +324,12 @@ const portfolioData = {
     en: {
         personal: {
             name: "Nazrin Osmanova",
-            title: "Junior Process Management Specialist",
+            title: "IT Business Analyst / Junior Process Management Specialist",
             email: "nazrinosmanovaa@gmail.com",
             linkedin: "https://www.linkedin.com/in/nazrin-osmanova/",
             portfolio: "https://nazrinosmanova.github.io/Portfolio/",
             address: "Azerbaijan, Baku, Khatai",
-            about: "I am a developing professional in data and business analytics. I have practical knowledge in Excel, Power BI, SQL, and BPMN. During internship programs, I worked on business process analysis, documentation, and report preparation. My goal is to build a career in data-driven decision-making and analytics.",
+            about: "I have experience in business analytics and process management. I have practical skills in BRD/FRD preparation, BPMN modeling and API integration analysis. I have worked on process optimization in large-scale pilot programs. My goal is to build a successful career in the field of business process digitization and improvement.",
             github: "https://github.com/nazrinosmanova"
         },
 
@@ -349,8 +354,10 @@ const portfolioData = {
                 role: "Intern",
                 period: "July 1, 2026 – Ongoing",
                 tasks: [
-                    "Preparation of 'As-Is' and 'To-Be' diagrams for the repayment of credit debts, as well as relevant business scenarios (Use Case and Sequence diagrams);",
-                    "Analysis of processes and participation in work with internal documents by identifying discrepancies and deviations between existing reports (bank and robotic systems)."
+                    "Business Process Analysis and Optimization (BPMN 2.0): Modeling process maps for sales, logistics (driver/courier assignment), warranty and service services in Visio and participating in the process of clarifying inter-departmental procedural instructions;",
+                    "Functional Requirements Documentation (FRD/BRD): Preparing detailed FRD documents for product discount systems (automatic discount for relevant products) and bank integrations, supporting the alignment of IT and business expectations;",
+                    "Data Reconciliation and Quality Control: Analyzing discrepancies between internal ERP and bank/robot reports using Excel and ensuring the accuracy of reporting;",
+                    "System and Campaign Terms Modeling: Updating the internal knowledge base (DR Explain), adapting corporate instructions to new systems and supporting the formation of business logics to prevent fraud in campaigns."
                 ]
             },
             {
@@ -392,7 +399,7 @@ const portfolioData = {
             { category: "Business Processes and Modeling", items: ["BPMN", "MS Visio", "Lucidchart", "Business Requirements Documentation (BRD Preparation)", "Functional Requirements Documentation (FRD Preparation)", "DR Explain", "Process Optimization"] },
             { category: "Office Applications", items: ["Word", "Excel", "PowerPoint", "Outlook"] },
             { category: "Project Management", items: ["Fundamental knowledge of project management methodologies", "Trello", "ClickUp", "Odoo"] },
-            { category: "Technical Foundation", items: ["Algorithmic thinking", "Programming fundamentals", "GitHub"] }
+            { category: "Technical Foundation", items: ["API fundamentals", "Algorithmic thinking", "Programming fundamentals", "GitHub"] }
         ],
 
         softSkills: [
@@ -407,6 +414,9 @@ const portfolioData = {
         ],
 
         certificates: [
+            { name: "Team Building", issuer: "BE Academy", date: "August 17, 2026", link: "http://be-academy.ru/cert_verify.php?code=06b5a4c711ea3c149c2482fd4bf3a50d" },
+            { name: "Time Management", issuer: "BE Academy", date: "July 24, 2026", link: "https://file.notion.so/f/f/769604d0-d074-816e-85b4-00030585eeec/b2658d53-cef5-493c-b740-61d3440c3c4b/Time_Management.jpg?table=block&id=3c6604d0-d074-8006-a236-f7e9513e4d43&spaceId=769604d0-d074-816e-85b4-00030585eeec&expirationTimestamp=1787608800000&signature=Ht84xTV0qfrSfZGncXprl2nC9ZRMw9BVlFL04b_cTjc&downloadName=Time+Management.jpg" },
+            { name: "Business Ethics", issuer: "BE Academy", date: "July 23, 2026", link: "https://file.notion.so/f/f/769604d0-d074-816e-85b4-00030585eeec/40ab27c6-e0b2-41b7-96b5-85af7513ba91/Business_Ethics.jpg?table=block&id=3c6604d0-d074-8000-bf01-ccd0a479bdcc&spaceId=769604d0-d074-816e-85b4-00030585eeec&expirationTimestamp=1787608800000&signature=JC4iyNiO9hB1dcaeAlA7EUKpNjnqPFs-GTzdLgVSGK8&downloadName=Business+Ethics.jpg" },
             { name: "Power BI for Beginners", issuer: "Simplilearn", date: "June 14, 2026", link: "https://simpli-web.app.link/e/mWIjpuqpY3b" },
             { name: "Business Intelligence Foundations", issuer: "Simplilearn", date: "March 11, 2026", link: "https://simpli-web.app.link/e/7KqJEjSWp1b" },
             { name: "Process Mining: Data Science in Action", issuer: "Eindhoven University of Technology", date: "December 6, 2025", link: "https://www.coursera.org/account/accomplishments/verify/Z13VGLSC044Z" },
